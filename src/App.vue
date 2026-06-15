@@ -1,7 +1,19 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<template>
+  <router-view></router-view>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
 </script>
 
-<template>
-  <HelloWorld />
-</template>
+<style>
+/* Butun sayt uchun umumiy asosiy stillar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+}
+</style>
